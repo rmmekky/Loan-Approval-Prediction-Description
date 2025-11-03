@@ -1,5 +1,5 @@
 # 🧠 Loan Approval Prediction
- 
+
 This project aims to predict whether a loan application will be **approved or rejected** using machine learning techniques.
 
 ---
@@ -15,9 +15,34 @@ The main focus is on improving classification performance using metrics suitable
 
 ---
 
+## 📊 Dataset
+
+**Source:** Kaggle - [Loan Approval Prediction Dataset](https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset)
+
+**Description:**  
+This dataset contains information about applicants and their loan applications,  
+used to predict whether a loan will be approved or rejected.
+
+**Attributes:**
+- `loan_id` — Unique identifier for each loan application  
+- `no_of_dependents` — Number of dependents of the applicant  
+- `education` — Applicant’s education level (Graduate / Not Graduate)  
+- `self_employed` — Whether the applicant is self-employed (Yes / No)  
+- `income_annum` — Annual income of the applicant  
+- `loan_amount` — Amount of loan requested  
+- `loan_term` — Loan repayment term (in months)  
+- `cibil_score` — Applicant’s credit score  
+- `residential_assets_value` — Value of residential assets  
+- `commercial_assets_value` — Value of commercial assets  
+- `luxury_assets_value` — Value of luxury assets (cars, jewelry, etc.)  
+- `bank_asset_value` — Value of bank account and financial assets  
+- `loan_status` — Target variable (Approved / Rejected)
+
+---
+
 ## 🧰 Tools & Libraries
 
-- Python  
+- Python 
 - Pandas  
 - NumPy  
 - Scikit-learn  
